@@ -1,0 +1,26 @@
+
+/pb_data/storage
+/pb_data/data.db
+/pb_data/data.db-shm
+/pb_data/data.db-wal
+/pb_data/logs.db
+/pb_data/logs.db-shm
+/pb_data/logs.db-wal
+/pb_migrations/
+pocketbase
+/pb_data/types.d.ts
+# # Ignore everything
+# *
+
+# # But not these files...
+# !.gitignore
+# !script.pl
+# !template.latex
+# # etc...
+
+# # ...even if they are in subdirectories
+# !*/
+
+# # if the files to be tracked are in subdirectories
+# !*/a/b/file1.txt
+# !*/a/b/c/*
